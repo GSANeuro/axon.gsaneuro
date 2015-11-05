@@ -4072,6 +4072,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
@@ -4168,6 +4169,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  color: #fff;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4181,6 +4183,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 18px;
   line-height: 20px;
 }
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -6581,4 +6584,16 @@ button.close {
     display: none !important;
   }
 }
+
+
+/*# Custom CSS */
+.navbar-custom {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */
