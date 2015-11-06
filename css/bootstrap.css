@@ -6589,7 +6589,7 @@ button.close {
 
 /*# Custom CSS */
 .navbar-custom {
-  color: white;
+    color: white;
     font-family: "Oswald";
     font-size: 20px;
 }
@@ -6600,6 +6600,22 @@ button.close {
     border: 0px;
 }
 
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-custom {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-custom {
+    font-size: 20px;
+  }
+}
 
 
 
