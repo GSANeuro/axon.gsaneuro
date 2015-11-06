@@ -6617,9 +6617,17 @@ button.close {
   }
 }
 
+.footer{
+    background-color: rgba(21,71,95,0.85);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+}
 
-
-
-
+.footer a{
+    color: rgba(229,229,229,.7);
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
