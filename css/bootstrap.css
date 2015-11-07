@@ -3096,7 +3096,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #fff;
+  color: #fff
   background-color: #286090;
   border-color: #204d74;
 }
@@ -4548,7 +4548,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: rgba(21,71,95,0.85); /* change drop down actice color change*/
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -6629,5 +6629,7 @@ button.close {
 .footer a{
     color: rgba(229,229,229,.7);
 }
+
+
 
 /*# sourceMappingURL=bootstrap.css.map */
