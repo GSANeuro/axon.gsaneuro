@@ -6591,7 +6591,7 @@ button.close {
 .navbar-custom {
     color: white;
     font-family: "Oswald";
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar {
@@ -6626,8 +6626,13 @@ button.close {
     color: white;
 }
 
-.footer a{
+.footer a {
     color: rgba(229,229,229,.7);
+}
+
+
+img { 
+    display: inline-block;
 }
 
 
