@@ -6591,7 +6591,7 @@ button.close {
 .navbar-custom {
     color: white;
     font-family: "Oswald";
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -6635,6 +6635,17 @@ img {
     display: inline-block;
 }
 
+/*# align icons evenly with text */
 
+li [class^="fa-"], .nav li [class^="fa-"], 
+li [class*="fa-"], .nav li [class*="fa-"] {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+}
+
+li {list-style:none;}
+li > a {display:block;}
+li > a > span {display:inline-block;width:20px;text-align:center;}
 
 /*# sourceMappingURL=bootstrap.css.map */
