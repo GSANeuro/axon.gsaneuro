@@ -6635,14 +6635,7 @@ img {
     display: inline-block;
 }
 
-/*# align icons evenly with text */
 
-li [class^="fa-"], .nav li [class^="fa-"], 
-li [class*="fa-"], .nav li [class*="fa-"] {
-    display: inline-block;
-    width: 1em;
-    text-align: center;
-}
 
 li {list-style:none;}
 li > a {display:block;}
